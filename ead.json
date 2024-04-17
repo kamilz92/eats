@@ -1,0 +1,23 @@
+{
+    "$schema": "https://gitlab.com/empaia/integration/definitions/-/raw/main/ead/ead-schema.v3.json",
+    "name": "TODO: Enter the name of the app",
+    "name_short": "TODO: Enter a short name for the app",
+    "namespace": "TODO: Enter the namespace for the app",
+    "description": "TODO: Enter a description of the app",
+    "io": {
+        "TODO: Enter the name of the input": {
+            "type": "TODO: Enter the type of the input",
+            "reference": "TODO: Enter a description of the input"
+        }
+    },
+    "modes": {
+        "standalone": {
+            "inputs": [
+                "TODO: Enter the name of the input"
+            ],
+            "outputs": [
+                "TODO: Enter the name of the output"
+            ]
+        }
+    }
+}
